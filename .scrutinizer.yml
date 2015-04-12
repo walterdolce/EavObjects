@@ -4,16 +4,3 @@ filter:
   excluded_paths:
     - spec/*
     - vendor/*
-tools:
-  php_code_sniffer:
-    config:
-      standard: "PSR2"
-  php_cs_fixer:
-    filter:
-      paths:
-        - src/*
-      excluded_paths:
-        - spec/*
-        - vendor/*
-    config:
-      - level: psr2
